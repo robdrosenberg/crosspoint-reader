@@ -34,7 +34,7 @@
 namespace {
 // pagesPerRefresh now comes from SETTINGS.getRefreshFrequency()
 // pages per minute, first item is 1 to prevent division by zero if accessed
-constexpr int PAGE_TURN_RATES[] = {1, 1, 3, 6, 12};
+constexpr int PAGE_TURN_RATES[] = {1, 1, 2, 3, 6, 12};
 
 int clampPercent(int percent) {
   if (percent < 0) {
